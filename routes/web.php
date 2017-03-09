@@ -27,3 +27,15 @@ Route::get('halo/chick', function () {
 Route::get('chick', function () {
     return view('Rooster.chick');
 });
+
+Route::get('gallery', function () {
+    return view('gallery');
+});
+
+Route::get('home', function () {
+    return view('home');
+});
+
+Route::get('about', function () {
+    return view('about');
+});
